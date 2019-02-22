@@ -18,4 +18,8 @@ public class AccountDAO {
         System.out.println(getClass() + ": adding " + amount + "$ the account");
     }
 
+    public void checkAccount(Account account, boolean isVip){
+        System.out.println(account + " is vip: " + isVip);
+    }
+
 }
